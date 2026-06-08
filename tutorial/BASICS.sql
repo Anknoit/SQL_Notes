@@ -27,3 +27,5 @@ GROUP BY city;
 FROM dim_product
 GROUP BY(category)
 ORDER BY Average_Price;
+
+-- SELECT = GROUP BY columns + Aggregate functions only.
